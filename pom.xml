@@ -180,4 +180,18 @@
 		</plugins>
 	</build>
 	<name>simple-web-app</name>
+
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>CVMP4257-releases</name>
+        <url>http://10.20.126.40:8889/artifactory/Atlassian-Project</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>CVMP4257-snapshots</name>
+        <url>http://10.20.126.40:8889/artifactory/Atlassian-Project</url>
+    </snapshotRepository>
+</distributionManagement>
+
 </project>
